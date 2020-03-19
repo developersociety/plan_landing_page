@@ -1,0 +1,158 @@
+/* print start */
+
+footer#footer{
+    margin-top: 35px;
+}
+
+footer#footer .logo,
+footer#footer .wrapp-column .col:last-child{ 
+    display: none!important;
+}
+
+.info .phone{
+    color: #000000;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.info .email{
+    margin-bottom: 10px;
+    display: block;
+}
+.info .email,
+.info p{
+    color: #000000;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+}
+/* info end */
+/* address start */
+address{
+    font-style: normal;
+    position: relative;
+}
+address span,
+address a{
+    display: block;
+    color: #000000;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 17px 0;
+}
+
+.accessibility{
+    display: none;
+}
+
+.section-top .card-img{
+        position: relative;
+}
+.section-top .card-img img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.section-top .card-img .hashtag{
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    z-index: 0;
+    transition: 0.3s;
+    font-family: 'CorePaint', sans-serif;
+    font-weight: 700;
+}
+
+
+h1{
+    text-transform: uppercase;
+    color: #243c4b;
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 43px;
+    font-family: 'CorePaint', sans-serif;
+}
+h2{
+    color: #000000;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+h3{
+    color: #0072ce;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+strong{
+    font-weight: 700;
+    line-height: 19px;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'Arimo', sans-serif;
+}  
+p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    margin-bottom: 20px;
+    
+}
+
+.descrip{
+    display: flex;
+    margin-left: 10px;
+    
+}
+.descrip  span{
+        color: #0072ce;
+        font-family: 'Arimo', sans-serif;
+        font-size: 12px;
+        line-height: 15px;
+}
+
+.autor{
+    display: flex;
+}
+
+.round-foto{
+    margin-right: 11px;
+}
+
+.autor .descrip {
+    display: flex;
+    flex-direction: column;
+}
+
+.autor .descrip  h4{
+    font-family: 'Arimo', sans-serif;
+     font-weight: 700;
+}
+
+.section-content .wrapp-column .col:last-child{
+    display: none;
+}
+
+/* accessibility end */
